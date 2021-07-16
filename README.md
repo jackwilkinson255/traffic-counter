@@ -15,7 +15,7 @@ The object detector outputs bounding boxes and class IDs for each detected objec
 of these bounding boxes to our tracking algorithm. The tracker assigns each of these centroids a tracking ID, which
 allows us to keep track of each object from frame to frame. When one of the centroids intersects the red line, we 
 increment a counter for that particular object class. The object detector uses [PyTorch](https://pytorch.org/) which 
-allows for fast GPU performance, each frame takes about 0.012 s to process.
+allows for fast GPU performance, each frame takes about 0.012s to process.
 
 ### Transform:
 We use a dict to store the counts of each class such as cars, people, trucks and motorcycles. Then on every 15 minutes
