@@ -1,6 +1,6 @@
 # Traffic Counter Data Engineering Project
 
-This project uses the [YOLOv5](https://github.com/ultralytics/yolov5) object detector and the 
+This project uses the [YOLOv5](https://github.com/ultralytics/yolov5) object detector and 
 [SORT](https://github.com/abewley/sort) tracking algorithm to collect traffic data which is stored in an AWS
 relational database. 
 
