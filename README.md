@@ -8,6 +8,11 @@ relational database.
   <img src="data/videos/detected.gif" alt="animated" />
 </p>
 
+<p align="center">
+    <sup><strong>Figure 1:</strong> Traffic counter tracking in real-time.</sup>
+</p>
+
+
 ## ETL Pipeline
 
 ### Extraction:
@@ -27,11 +32,14 @@ key column, along with a timestamp and column for the number counted for each ob
 
 ## Analysis
 Figure below shows the average number of objects detected over a period of 10 days per hour.
+
 <p align="center">
-  <img src="data/traffic_data_plot.png"/>
+  <img src="data/traffic_data_plot.png" width="500">
 </p>
 
-
+<p align="center">
+    <sup><strong>Figure 2:</strong> Average number of objects tracked in one week.</sup>
+</p>
 
 
 
